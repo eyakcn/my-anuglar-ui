@@ -1,0 +1,49 @@
+.comp-value-picker {
+  display: inline-block;
+  text-align: center;
+
+  .action-next {
+    cursor: pointer;
+    padding: 18px 20px;
+    width: 28%;
+    margin: auto;
+    background: url(arrow.png) no-repeat;
+    background-position: 50% -50%;
+    //border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .value {
+    margin: 0;
+    padding: 0 4px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 28px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    float: none;
+    text-align: center;
+    width: 100%;
+    min-height: 30px;
+  }
+
+  .action-prev {
+    cursor: pointer;
+    padding: 18px 20px;
+    width: 28%;
+    margin: auto;
+    background: url(arrow.png) no-repeat;
+    background-position: 50% 150%;
+    //border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .action-next:hover, .action-prev:hover {
+    background-color: #ccc;
+  }
+}

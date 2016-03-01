@@ -1,0 +1,9 @@
+<div class="comp-datetime-picker">
+  <value-picker ng-model="value.year" postfix="年" values="years"></value-picker>
+  <value-picker ng-model="value.month" offset="1" postfix="月" values="months"></value-picker>
+  <value-picker ng-model="value.date" postfix="日" values="days"></value-picker>
+  <div style="padding: 40px 2px; display: inline-block; vertical-align: middle;"></div>
+  <value-picker ng-model="value.hour" min-length="2" values="hours"></value-picker>
+  <div style="display: inline-block; vertical-align: text-bottom;">:</div>
+  <value-picker ng-model="value.minute" min-length="2" values="minutes"></value-picker>
+</div>

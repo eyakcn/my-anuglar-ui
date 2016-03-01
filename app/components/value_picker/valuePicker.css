@@ -1,0 +1,45 @@
+.comp-value-picker {
+    display: inline-block;
+    text-align: center
+}
+
+.comp-value-picker .action-next {
+    cursor: pointer;
+    padding: 18px 20px;
+    width: 28%;
+    margin: auto;
+    background: url(arrow.png) 50% -50% no-repeat;
+    border-radius: 4px
+}
+
+.comp-value-picker .value {
+    margin: 0;
+    padding: 0 4px;
+    color: #333;
+    font-size: 14px;
+    line-height: 28px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    float: none;
+    text-align: center;
+    width: 100%;
+    min-height: 30px
+}
+
+.comp-value-picker .action-prev {
+    cursor: pointer;
+    padding: 18px 20px;
+    width: 28%;
+    margin: auto;
+    background: url(arrow.png) 50% 150% no-repeat;
+    border-radius: 4px
+}
+
+.comp-value-picker .hidden {
+    visibility: hidden
+}
+
+.comp-value-picker .action-next:hover, .comp-value-picker .action-prev:hover {
+    background-color: #ccc
+}

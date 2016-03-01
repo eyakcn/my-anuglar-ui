@@ -1,0 +1,5 @@
+<div class="comp-value-picker">
+  <div class="action-next" ng-class="{'hidden': values.length === 1}" ng-click="vm.showNext()"></div>
+  <div class="value" ng-bind="prefix + value + postfix"></div>
+  <div class="action-prev" ng-class="{'hidden': values.length === 1}" ng-click="vm.showPrev()"></div>
+</div>
